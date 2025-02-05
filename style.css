@@ -188,3 +188,31 @@ section {
   background: var(--main-color);
   color: var(--text-color);
  }
+
+ .scroll {
+  position: absolute;
+  top: 92%;
+  left: 47%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+ }
+
+ .scroll a {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--text-color);
+  letter-spacing: .05em;
+  transition: all .6s ease;
+ }
+
+ .scroll a:hover {
+  transform: translateY(-7px);
+  color: var(--main-color);
+ }
+
+ .scroll i {
+  font-size: 16px;
+  margin-right: 9px;
+ }

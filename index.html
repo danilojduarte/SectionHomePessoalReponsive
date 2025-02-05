@@ -48,7 +48,7 @@
       <div class="hero-text">
         <h6>Olá, <span>meu nome é</span></h6>
         <h1><span>Danilo</span> Duarte</h1>
-        <h4>Eu sou <span>Desenvolvedor Web</span></h4>
+        <h4>Eu sou  <span class="input"></span></h4>
         <p>
           Sou um desenvolvedor web que acredita no poder da tecnologia<br> para
           transformar ideias em realidade.
@@ -75,9 +75,18 @@
     </section>
 
     <div class="scroll">
-      <a href="#"><i class="ri-scroll-to-bottom-fill"></i></a>
+      <a href="#"><i class="ri-scroll-to-bottom-fill"></i>Scroll Bottom</a>
     </div>
 
-    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script type="text/javascript">
+      var typed = new Typed(".input", {
+        strings:["Desenvolvedor Web.", "Suporte.", "Freelancer."],
+        typeSpeed: 80,
+        backSpeed: 70,
+        loop: true,
+      });
+    </script>
   </body>
 </html>

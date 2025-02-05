@@ -90,3 +90,7 @@ header {
   margin-left: 20px;
   display: none;
 }
+
+section {
+  padding: 0px 13% 0px;
+}

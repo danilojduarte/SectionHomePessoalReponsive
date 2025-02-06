@@ -292,7 +292,10 @@ section {
   }
   header {
     background-color: #22211f;
-    padding: 10px 4%;
+    padding: 8px 4%;
+  }
+  .hero {
+    margin-top: 2rem;
   }
   .logo {
     font-size: 25px;
